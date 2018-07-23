@@ -11,7 +11,7 @@ const config = {
 		'./main.js',
 		'./assets/scss/main.scss',
 	],
-
+	devtool: 'eval-source-map',
 	output: {
 		filename: 'bundle.js',
 		path: resolve(__dirname, 'dist'),

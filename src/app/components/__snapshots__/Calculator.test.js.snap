@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connected Calculator render a calculator 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Calculator)>
+    <Calculator
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onUpdate={[Function]}
+      operation="7+3"
+      result={10}
+    >
+      <div
+        className="container"
+      >
+        <label
+          className="content-header-label"
+        >
+          Calculation
+        </label>
+        <div
+          className="content-header info"
+        >
+          7+3
+        </div>
+        <label
+          className="content-header-label"
+        >
+          Result
+        </label>
+        <div
+          className="content-header success"
+        >
+          10
+        </div>
+        <div
+          className="content"
+        >
+          <div
+            className="content-center"
+          >
+            <div>
+              <button
+                onClick={[Function]}
+              >
+                1
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                2
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                3
+              </button>
+            </div>
+            <div>
+              <button
+                onClick={[Function]}
+              >
+                4
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                5
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                6
+              </button>
+            </div>
+            <div>
+              <button
+                onClick={[Function]}
+              >
+                7
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                8
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                9
+              </button>
+            </div>
+            <div>
+              <button
+                className="clear"
+                onClick={[Function]}
+              >
+                C
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                0
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                .
+              </button>
+            </div>
+          </div>
+          <div
+            className="content-left"
+          >
+            <button
+              onClick={[Function]}
+            >
+              +
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              -
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              /
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              x
+            </button>
+          </div>
+        </div>
+        <div
+          className="content-footer"
+        >
+          <button
+            onClick={[Function]}
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </Calculator>
+  </Connect(Calculator)>
+</Provider>
+`;
